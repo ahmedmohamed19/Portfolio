@@ -1,0 +1,46 @@
+.floatingNav {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 1000;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.navItem i {
+    font-size: 24px;
+}
+
+.navItem span {
+    margin-left: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* عند تمرير الماوس */
+.navItem:hover {
+    width: 120px;
+    background: #007bff;
+    color: white;
+}
+
+.navItem:hover span {
+    opacity: 1;
+}

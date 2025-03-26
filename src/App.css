@@ -1,0 +1,22 @@
+.btn-hover:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.project-hover:hover {
+  background-color: #333;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-hover:hover {
+  color: #007bff;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-hover:hover {
+  color: #f8f9fa !important;
+  text-decoration: underline;
+  transition: color 0.3s ease-in-out;
+}

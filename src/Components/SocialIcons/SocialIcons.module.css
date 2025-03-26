@@ -1,0 +1,37 @@
+.socialIcons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.socialIcons a {
+    font-size: 1.8rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+
+/* ألوان لكل منصة */
+.linkedin {
+    color: #0e76a8;
+}
+
+/* LinkedIn */
+.github {
+    color: #171515;
+}
+
+.phone {
+    color: #007bff;
+}
+
+/* Phone */
+.whatsapp {
+    color: #25D366;
+}
+
+/* WhatsApp */
+
+/* تأثير عند تمرير الماوس */
+.socialIcons a:hover {
+    transform: scale(1.2);
+}
