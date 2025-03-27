@@ -142,3 +142,36 @@
 .socialIcons a:hover {
     transform: scale(1.2);
 }
+
+
+@media screen and (max-width: 768px) {
+    .homeSection {
+        padding: 20px;
+    }
+    .imageContainer {
+        width: 200px;
+        height: 200px;
+    }
+    .greetingText {
+        font-size: 1.5rem;
+    }
+    .nameText {
+        font-size: 2rem;
+    }
+    .jobTitle {
+        font-size: 1.2rem;
+    }
+    .socialIcons a {
+        font-size: 1.5rem;
+    }
+    .buttons {
+        margin-top: 10px;
+    }
+    .btnPrimary,
+    .btnSecondary {
+        padding: 10px 20px;
+        margin: 5px;
+    }
+    
+
+}

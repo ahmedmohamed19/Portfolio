@@ -36,9 +36,9 @@ const Projects = () => {
     return (
         <Container className={styles.projectsSection}>
             <h2 className={styles.projectsTitle}>My Projects</h2>
-            <Row>
+            <Row className="g-4">
                 {projects.map((project, index) => (
-                    <Col key={index} md={6} lg={4} className="mb-4">
+                    <Col key={index} xs={12} sm={6} md={6} lg={4} className="mb-4">
                         <Card className={styles.projectCard}>
                             <Card.Img variant="top" src={project.image} className={styles.projectImage} />
                             <Card.Body className={styles.projectInfo}>

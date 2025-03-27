@@ -75,3 +75,33 @@
     background: #0056b3;
     transform: scale(1.05);
 }
+
+@media screen and (max-width: 768px) {
+    .contactSection {
+        padding: 30px 10px;
+    }
+
+    .contactTitle {
+        font-size: 1.8rem;
+    }
+
+    .contactInfo p {
+        font-size: 0.9rem;
+    }
+
+    .contactForm {
+        padding: 15px;
+    }
+
+    .contactForm input,
+    .contactForm textarea {
+        padding: 8px;
+    }
+
+    .submitButton {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+    
+    
+}
